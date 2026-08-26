@@ -22,12 +22,13 @@ export const ImpactNumbers: React.FC = () => {
               className="editorial-card p-6 flex flex-col justify-between group bg-white/95"
             >
               <div>
-                {/* Category tag in clean neutral styling (no green background) */}
+                {/* Category tag: Clean text with subtle dot, NO grey box / NO grey background */}
                 <div className="flex items-center justify-between mb-4">
-                  <span className="px-2.5 py-0.5 rounded-md text-[11px] font-mono font-medium text-slate-700 bg-slate-100 border border-slate-200">
+                  <span className="text-xs font-mono font-semibold text-emerald-800 flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
                     {item.category}
                   </span>
-                  <span className="text-[10px] font-mono text-slate-400 font-normal">
+                  <span className="text-[11px] font-mono text-slate-400 font-normal">
                     {item.sourceProject}
                   </span>
                 </div>
