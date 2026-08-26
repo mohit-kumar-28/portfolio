@@ -65,8 +65,6 @@ npm run preview
 ```
 portfolio/
 ├── public/
-│   ├── resume/
-│   │   └── Mohit_Kumar_Resume.pdf  # Place your exported PDF resume here
 │   ├── favicon.svg                 # Glowing MK cyber monogram
 │   ├── robots.txt                  # Search engine crawlers config
 │   └── sitemap.xml                 # SEO sitemap
