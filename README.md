@@ -65,8 +65,6 @@ npm run preview
 ```
 portfolio/
 ├── public/
-│   ├── resume/
-│   │   └── Mohit_Kumar_Resume.pdf  # Place your exported PDF resume here
 │   ├── favicon.svg                 # Glowing MK cyber monogram
 │   ├── robots.txt                  # Search engine crawlers config
 │   └── sitemap.xml                 # SEO sitemap
@@ -105,12 +103,6 @@ All personal details, projects, skills, experience, and links are centralized in
 👉 `src/data/portfolio.ts`
 
 You can update your projects, add new certifications, or change social links without touching any UI component code.
-
-### Updating Your Resume
-Place your final exported PDF in:
-👉 `public/resume/Mohit_Kumar_Resume.pdf`
-
-The download button in the Navbar and Hero section will automatically serve this file.
 
 ---
 
