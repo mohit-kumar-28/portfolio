@@ -50,7 +50,7 @@ export const Contact: React.FC = () => {
                 <div className="p-3 rounded-xl bg-slate-900/5 text-emerald-800">
                   <Mail className="w-5 h-5" />
                 </div>
-                <span className="text-[11px] font-mono text-emerald-900 bg-emerald-500/10 px-2.5 py-0.5 rounded-full font-medium">
+                <span className="text-[11px] font-mono text-white bg-emerald-700 px-2.5 py-0.5 rounded-full font-medium shadow-xs">
                   DIRECT EMAIL
                 </span>
               </div>
@@ -208,8 +208,8 @@ export const Contact: React.FC = () => {
             <MapPin className="w-4 h-4 text-emerald-600 shrink-0" />
             <span>Birla Institute of Technology, Mesra — Ranchi, Jharkhand, India</span>
           </div>
-          <span className="text-emerald-900 bg-emerald-500/10 px-3 py-1 rounded-full font-medium flex items-center gap-1.5">
-            <Sparkles className="w-3 h-3 text-emerald-600" />
+          <span className="text-white bg-emerald-700 px-3 py-1 rounded-full font-medium flex items-center gap-1.5 shadow-xs">
+            <Sparkles className="w-3 h-3 text-emerald-200" />
             Active Student &amp; Developer
           </span>
         </div>

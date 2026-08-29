@@ -20,7 +20,7 @@ export const TrafficLightVisualizer: React.FC = () => {
             ADAPTIVE SIGNAL SCHEDULER (GA &amp; PSO)
           </span>
         </div>
-        <span className="font-mono text-[10px] text-emerald-800 bg-emerald-50 px-2.5 py-0.5 rounded-full font-semibold border border-emerald-200">
+        <span className="font-mono text-[10px] text-white bg-emerald-700 px-2.5 py-0.5 rounded-full font-semibold shadow-xs">
           -25%+ Congestion
         </span>
       </div>
@@ -30,7 +30,7 @@ export const TrafficLightVisualizer: React.FC = () => {
         <div
           className={`p-3.5 rounded-xl border text-center transition-colors ${
             activeSignal === 'ns'
-              ? 'bg-emerald-50 border-emerald-300 text-emerald-900 shadow-2xs'
+              ? 'bg-emerald-700 border-emerald-800 text-white shadow-xs'
               : 'bg-slate-50 border-slate-200 text-slate-500'
           }`}
         >
@@ -45,7 +45,7 @@ export const TrafficLightVisualizer: React.FC = () => {
         <div
           className={`p-3.5 rounded-xl border text-center transition-colors ${
             activeSignal === 'ew'
-              ? 'bg-emerald-50 border-emerald-300 text-emerald-900 shadow-2xs'
+              ? 'bg-emerald-700 border-emerald-800 text-white shadow-xs'
               : 'bg-slate-50 border-slate-200 text-slate-500'
           }`}
         >

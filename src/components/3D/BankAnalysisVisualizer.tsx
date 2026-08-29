@@ -19,7 +19,7 @@ export const BankAnalysisVisualizer: React.FC = () => {
             FINANCIAL TRANSACTION PIPELINE
           </span>
         </div>
-        <span className="font-mono text-[10px] text-emerald-800 bg-emerald-50 px-2.5 py-0.5 rounded-full font-semibold border border-emerald-200">
+        <span className="font-mono text-[10px] text-white bg-emerald-700 px-2.5 py-0.5 rounded-full font-semibold shadow-xs">
           50,000+ Records
         </span>
       </div>

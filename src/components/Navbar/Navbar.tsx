@@ -42,11 +42,10 @@ export const Navbar: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-200 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-200 ${isScrolled
           ? 'py-3 bg-[#faf9f6]/90 backdrop-blur-md border-b border-slate-200/60 shadow-2xs'
           : 'py-5 bg-transparent'
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Brand Logo with Avatar */}
@@ -80,11 +79,10 @@ export const Navbar: React.FC = () => {
                 key={item.id}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
-                className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                  isActive
-                    ? 'text-emerald-900 font-semibold bg-emerald-500/15'
+                className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${isActive
+                    ? 'text-white font-semibold bg-emerald-700 shadow-xs'
                     : 'text-slate-600 hover:text-slate-900 hover:bg-slate-900/5'
-                }`}
+                  }`}
               >
                 {item.label}
               </a>
@@ -125,11 +123,10 @@ export const Navbar: React.FC = () => {
                   key={item.id}
                   href={item.href}
                   onClick={(e) => handleNavClick(e, item.href)}
-                  className={`px-3 py-2 rounded-xl text-sm font-medium transition-colors ${
-                    isActive
-                      ? 'text-emerald-900 bg-emerald-50 font-semibold'
+                  className={`px-3 py-2 rounded-xl text-sm font-medium transition-colors ${isActive
+                      ? 'text-white bg-emerald-700 font-semibold shadow-xs'
                       : 'text-slate-700 hover:text-slate-900 hover:bg-slate-50'
-                  }`}
+                    }`}
                 >
                   {item.label}
                 </a>

@@ -29,7 +29,7 @@ export const SafetyVisionVisualizer: React.FC = () => {
             TATA MOTORS • COMPUTER VISION PIPELINE
           </span>
         </div>
-        <span className="text-[11px] font-mono text-emerald-800 bg-emerald-50 px-2.5 py-0.5 rounded-full font-semibold border border-emerald-200">
+        <span className="text-[11px] font-mono text-white bg-emerald-700 px-2.5 py-0.5 rounded-full font-semibold shadow-xs">
           YOLOv11 &amp; OpenCV
         </span>
       </div>
@@ -74,11 +74,11 @@ export const SafetyVisionVisualizer: React.FC = () => {
               key={idx}
               className={`p-2 rounded-lg border text-center transition-colors ${
                 isCurrent
-                  ? 'bg-emerald-50 border-emerald-300 text-emerald-900 shadow-2xs'
+                  ? 'bg-emerald-700 border-emerald-800 text-white shadow-xs'
                   : 'bg-slate-50 border-slate-200 text-slate-500'
               }`}
             >
-              <Icon className="w-3.5 h-3.5 mx-auto mb-1 text-emerald-600" />
+              <Icon className={`w-3.5 h-3.5 mx-auto mb-1 ${isCurrent ? 'text-white' : 'text-slate-600'}`} />
               <div className="text-[9px] font-mono font-medium line-clamp-1">
                 {step.label}
               </div>

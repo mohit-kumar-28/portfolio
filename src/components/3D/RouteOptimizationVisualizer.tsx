@@ -19,7 +19,7 @@ export const RouteOptimizationVisualizer: React.FC = () => {
             BANGALORE ROAD GRAPH • ACO &amp; PSO PATHFINDING
           </span>
         </div>
-        <span className="font-mono text-[10px] text-emerald-800 bg-emerald-50 px-2.5 py-0.5 rounded-full font-semibold border border-emerald-200">
+        <span className="font-mono text-[10px] text-white bg-emerald-700 px-2.5 py-0.5 rounded-full font-semibold shadow-xs">
           +20% Efficiency Gain
         </span>
       </div>

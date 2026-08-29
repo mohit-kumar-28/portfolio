@@ -42,7 +42,7 @@ Combining **Software Development**, **Data Engineering**, **Backend Systems (Fas
 npm install
 ```
 
-### 2. Run Local Development Server
+### 2. Run Local Development Server 
 ```bash
 npm run dev
 ```

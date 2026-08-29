@@ -27,7 +27,7 @@ export const BiDashboardVisualizer: React.FC = () => {
             NATURAL LANGUAGE TO SQL &amp; KPIS
           </span>
         </div>
-        <span className="font-mono text-[10px] text-emerald-800 bg-emerald-50 px-2.5 py-0.5 rounded-full font-semibold border border-emerald-200">
+        <span className="font-mono text-[10px] text-white bg-emerald-700 px-2.5 py-0.5 rounded-full font-semibold shadow-xs">
           60–70% Time Saved
         </span>
       </div>
@@ -44,11 +44,11 @@ export const BiDashboardVisualizer: React.FC = () => {
                 isCurrent
                   ? 'bg-sky-50 border-sky-300 text-sky-900 shadow-xs'
                   : isPassed
-                  ? 'bg-emerald-50 border-emerald-200 text-emerald-900'
+                  ? 'bg-emerald-700 border-emerald-800 text-white shadow-xs'
                   : 'bg-slate-50 border-slate-200 text-slate-500'
               }`}
             >
-              <div className="text-[10px] font-mono text-slate-400 mb-0.5">
+              <div className={`text-[10px] font-mono mb-0.5 ${isPassed ? 'text-emerald-200' : 'text-slate-400'}`}>
                 0{idx + 1}
               </div>
               <div className="text-[11px] font-display font-medium line-clamp-1">

@@ -33,7 +33,7 @@ export const Leadership: React.FC = () => {
                   {/* Top Role Header */}
                   <div className="flex items-center justify-between pb-4 border-b border-slate-100 mb-4">
                     <div className="flex items-center gap-3">
-                      <div className="p-2.5 rounded-xl bg-emerald-50 text-emerald-700">
+                      <div className="p-2.5 rounded-xl bg-emerald-700 text-white shadow-xs">
                         <Icon className="w-5 h-5" />
                       </div>
                       <div>

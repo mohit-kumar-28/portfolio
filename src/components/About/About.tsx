@@ -90,7 +90,7 @@ export const About: React.FC = () => {
                   >
                     <div>
                       <div className="flex items-center justify-between mb-2">
-                        <div className="p-2 rounded-lg bg-emerald-50 text-emerald-700">
+                        <div className="p-2 rounded-lg bg-emerald-700 text-white shadow-xs">
                           <Icon className="w-4 h-4" />
                         </div>
                         <span className="text-[10px] font-mono text-slate-500 font-medium">

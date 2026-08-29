@@ -81,7 +81,7 @@ export const DataFlowArchitecture: React.FC = () => {
             Signature Data Flow Architecture
           </span>
         </div>
-        <span className="text-[11px] font-mono text-emerald-900 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200 font-medium">
+        <span className="text-[11px] font-mono text-white bg-emerald-700 px-2.5 py-0.5 rounded-full font-medium shadow-xs">
           DATA → AI PIPELINE
         </span>
       </div>
@@ -97,11 +97,11 @@ export const DataFlowArchitecture: React.FC = () => {
               onClick={() => setActiveStage(idx)}
               className={`p-2 sm:p-2.5 rounded-xl border text-center flex flex-col items-center gap-1 transition-all duration-150 cursor-pointer ${
                 isActive
-                  ? 'border-emerald-600 bg-emerald-50 text-emerald-900 shadow-xs'
+                  ? 'border-emerald-700 bg-emerald-700 text-white shadow-xs'
                   : 'border-slate-200 bg-white hover:bg-slate-50 text-slate-600'
               }`}
             >
-              <Icon className={`w-4 h-4 sm:w-5 sm:h-5 ${isActive ? 'text-emerald-700' : 'text-slate-600'}`} />
+              <Icon className={`w-4 h-4 sm:w-5 sm:h-5 ${isActive ? 'text-white' : 'text-slate-600'}`} />
               <span className="text-[9px] sm:text-[11px] font-mono font-medium tracking-tight line-clamp-1">
                 {stage.title}
               </span>
@@ -157,7 +157,7 @@ export const DataFlowArchitecture: React.FC = () => {
             </span>
             <span className="text-xs font-mono text-slate-500">({current.subtitle})</span>
           </div>
-          <span className="text-xs font-mono font-semibold px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
+          <span className="text-xs font-mono font-semibold px-2.5 py-0.5 rounded-full bg-emerald-700 text-white shadow-xs">
             {current.metric}
           </span>
         </div>

@@ -21,7 +21,7 @@ export const Hero: React.FC = () => {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full z-10">
         <div className="flex flex-col items-start text-left space-y-6">
-          
+
           {/* Avatar + Status Pill (Transparent without borders) */}
           <div className="flex items-center gap-3">
             <img
@@ -29,8 +29,8 @@ export const Hero: React.FC = () => {
               alt="Mohit Kumar"
               className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover border-2 border-emerald-600 shadow-md ring-4 ring-emerald-500/10"
             />
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 text-emerald-900">
-              <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse" />
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-700 text-white shadow-xs">
+              <span className="w-2 h-2 rounded-full bg-emerald-300 animate-pulse" />
               <span className="text-xs font-mono font-medium">
                 BIT Mesra CSE '27 • Open for Engineering Roles
               </span>
@@ -60,7 +60,7 @@ export const Hero: React.FC = () => {
             <strong className="text-slate-900 font-semibold">
               Birla Institute of Technology, Mesra
             </strong>
-            . Specializing in high-throughput backend APIs with FastAPI &amp; PostgreSQL, sub-500ms pgvector vector search pipelines, and heuristic graph pathfinding algorithms.
+            . Architecting high-performance data systems, RAG pipelines, FastAPI backends, and algorithmic solutions with clarity and precision.
           </p>
 
           {/* Tech Badges (Transparent without white boxes or hard borders) */}
